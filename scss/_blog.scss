@@ -1,0 +1,121 @@
+.blog {
+  padding: 30px 0 40px 0;
+
+  &__border {
+    border-radius: 5px;
+    border: 1px solid #E2E2E2;
+    background: #FFF;
+    box-shadow: 0px 5px 4px 0px rgba(221, 221, 221, 0.25);
+    height: 243px;
+    padding-left: 54px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__hero {
+    &-title {
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      color: #2D3748;
+      padding-top: 41px;
+    }
+
+    &-text {
+      color: #718096;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      max-width: 403px;
+      padding-top: 27px;
+    }
+
+    &-bottom {
+      padding-top: 30px;
+      display: flex;
+      justify-content: space-between;
+
+      &-date {
+        color: #718096;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+
+      &-btn {
+        color: #2D3748;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: normal;
+        text-decoration: none;
+
+      }
+    }
+  }
+
+  &__col {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 43px;
+  }
+
+  &__card {
+    height: 382px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px 0px rgba(192, 189, 189, 0.25);
+
+    &-gallary {
+      &-img {
+        width: 100%;
+      }
+    }
+
+    &-top {
+      padding: 18px 25px 22px 16px;
+    }
+
+    &-title {
+      color: #2D3748;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      margin-bottom: 15px;
+    }
+
+    &-text {
+      color: #718096;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+
+    &-bottom {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 24px 24px 16px;
+
+      &-date {
+        color: #718096;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+
+      &-btn {
+        color: #2D3748;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-decoration: none;
+      }
+    }
+  }
+}
